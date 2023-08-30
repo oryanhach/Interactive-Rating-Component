@@ -6,5 +6,139 @@
 }
 
 body {
-	background-color: ;
+	background-color: hsl(216, 12%, 8%);
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.choose-rating-container {
+	/* display: none; */
+	width: 410px;
+	height: 410px;
+	padding: 30px;
+	border-radius: 20px;
+	background: radial-gradient(circle, #232a34, #181e27);
+}
+
+.str-img {
+	background-color: #262e38;
+	padding: 14px;
+	border-radius: 50%;
+}
+
+.rating-header {
+	color: hsl(0, 0%, 100%);
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.rating-content {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	color: hsl(217, 12%, 63%);
+}
+
+.rating-btns-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rating-btn {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: #262e38;
+	border: 0;
+	color: hsl(217, 12%, 63%);
+}
+
+.rating-btn:hover {
+	background-color: hsl(217, 12%, 63%);
+	transition: 0.2s;
+	color: #fff;
+	cursor: pointer;
+}
+
+.rating-btn:active {
+	transform: scale(0.9);
+}
+
+.clicked {
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+}
+
+.submit-btn-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.submit-btn {
+	background-color: hsl(25, 97%, 53%);
+	width: 100%;
+	border-radius: 20px;
+	border: 0;
+	height: 45px;
+	color: hsl(0, 0%, 100%);
+	margin-top: 30px;
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+
+.submit-btn:hover {
+	background-color: hsl(25, 100%, 60%);
+	transition: 0.1s;
+}
+
+.submit-btn:active {
+	background-color: #fff;
+	color: hsl(25, 97%, 53%);
+}
+
+.rating-result-container {
+	display: none;
+	width: 410px;
+	height: 410px;
+	padding: 25px;
+	border-radius: 20px;
+	background: radial-gradient(circle, #232a34, #181e27);
+	/* display: flex; */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.rating-img {
+	margin-bottom: 15px;
+}
+
+.rating-result {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: hsl(29, 76%, 45%);
+	background-color: #262e38;
+	padding: 8px;
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+}
+
+.rating-result-header {
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.8rem;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.rating-result-content {
+	color: hsl(217, 12%, 63%);
+	text-align: center;
+	font-size: 16px;
+	margin-top: 0;
 }

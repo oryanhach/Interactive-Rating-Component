@@ -16,46 +16,34 @@
 		<title>Interactive rating component</title>
 	</head>
 	<body>
-		<!-- Rating state start -->
 		<div class="choose-rating-container">
+      <img class="str-img" src="images/icon-star.svg" alt="star image">
 			<h1 class="rating-header">How did we do?</h1>
 			<p class="rating-content">
 				Please let us know how we did with your support request. All
 				feedback is appreciated to help us improve our offering!
 			</p>
 			<section class="rating-btns-container">
-				<button class="rating-btn-1">1</button>
-				<button class="rating-btn-2">2</button>
-				<button class="rating-btn-3">3</button>
-				<button class="rating-btn-4">4</button>
-				<button class="rating-btn-5">5</button>
+				<button class="rating-btn">1</button>
+				<button class="rating-btn">2</button>
+				<button class="rating-btn">3</button>
+				<button class="rating-btn">4</button>
+				<button class="rating-btn">5</button>
 			</section>
-			<button class="submit-btn">Submit</button>
+      <div class="submit-btn-container">
+		  	<button class="submit-btn">Submit</button>
+      </div>
 		</div>
-		<!-- Rating state end -->
+
 		<div class="rating-result-container">
-			<!-- Thank you state start -->
-			<p class="rating-result">
-				You selected
-				<!-- Add rating here -->
-				out of 5
-			</p>
+      <img class="rating-img" src="images/illustration-thank-you.svg" alt="thank you image">
+			<p class="rating-result">You selected &nbsp<span> </span>&nbsp out of 5</p>
 			<h2 class="rating-result-header">Thank you!</h2>
 			<p class="rating-result-content">
 				We appreciate you taking the time to give a rating. If you ever
 				need more support, don’t hesitate to get in touch!
 			</p>
 		</div>
-		<!-- Thank you state end -->
-
-		<div class="attribution">
-			Challenge by
-			<a
-				href="https://www.frontendmentor.io?ref=challenge"
-				target="_blank"
-				>Frontend Mentor</a
-			>. Coded by
-			<a href="https://github.com/oryanhach">Oryan Hachamoff</a>.
 
 			<script src="script.js"></script>
 		</div>
